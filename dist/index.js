@@ -54,12 +54,12 @@ var styles = _reactNative.StyleSheet.create({
 });
 
 Dash.propTypes = {
-	style: _reactNative.ViewPropTypes.style,
+	style: _propTypes2.default.object,
 	dashGap: _propTypes2.default.number.isRequired,
 	dashLength: _propTypes2.default.number.isRequired,
 	dashThickness: _propTypes2.default.number.isRequired,
 	dashColor: _propTypes2.default.string,
-	dashStyle: _reactNative.ViewPropTypes.style
+	dashStyle: _propTypes2.default.object
 };
 
 Dash.defaultProps = {
